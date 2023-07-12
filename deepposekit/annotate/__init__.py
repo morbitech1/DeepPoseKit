@@ -16,6 +16,4 @@
 
 from __future__ import absolute_import
 
-from deepposekit.annotate.gui.Annotator import Annotator
-from deepposekit.annotate.gui.Skeleton import Skeleton
 from deepposekit.annotate.KMeansSampler import KMeansSampler
