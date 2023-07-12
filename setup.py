@@ -54,7 +54,7 @@ if __name__ == "__main__":
             "pandas",
             "h5py>=3.1.0",
             "imgaug>=0.2.9",
-            "opencv-python",
+            "opencv-python-headless",
             "pyyaml",
         ],
         packages=find_packages(),
