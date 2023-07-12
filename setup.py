@@ -27,7 +27,7 @@ MAINTAINER_EMAIL = "jgraving@gmail.com"
 URL = "https://github.com/jgraving/deepposekit"
 LICENSE = "Apache 2.0"
 DOWNLOAD_URL = "https://github.com/jgraving/deepposekit.git"
-VERSION = "0.3.9"
+VERSION = "0.4.0"
 
 directory = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(directory, 'README.md'), encoding='utf-8') as f:
@@ -54,7 +54,7 @@ if __name__ == "__main__":
             "pandas",
             "h5py>=3.1.0",
             "imgaug>=0.2.9",
-            "opencv-python",
+            "opencv-python-headless",
             "pyyaml",
         ],
         packages=find_packages(),
